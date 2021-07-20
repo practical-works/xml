@@ -1,0 +1,14 @@
+<!ELEMENT Bibliotheque (Livre*)>
+
+<!ELEMENT Livre (Titre,Auteur,Editeur)>
+
+<!ATTLIST Livre Genre CDATA #REQUIRED>
+<!ATTLIST Livre ISBN CDATA #IMPLIED>
+
+<!ELEMENT Titre (#PCDATA)>
+<!ELEMENT Auteur (Prenom, Nom)>
+<!ELEMENT Editeur (Nom, Annee)>
+
+<!ELEMENT Prenom (#PCDATA)>
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Annee (#PCDATA)>

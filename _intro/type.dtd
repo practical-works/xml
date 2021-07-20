@@ -1,0 +1,10 @@
+<!DOCTYPE 
+	Vente 
+	[
+		<!ELEMENT Vente (Produits)>
+		<!ELEMENT Produits ( Produit+)>
+		<!ELEMENT Produit (Produit_ID,Produit_Label)>
+		<!ELEMENT Produit_ID (#PCDATA)>
+		<!ELEMENT Produit_Label (#PCDATA)>
+	]
+>

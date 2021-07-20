@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Librairie SYSTEM "lib.dtd">
+<Librairie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+           xsi:noNamespaceSchemaLocation="lib.xsd">
+  <Livre>
+    <Titre>string</Titre>
+    <Auteur>string</Auteur>
+    <Date>2010</Date>
+    <ISBN>1-11111-111-1</ISBN>
+    <Editeur>string</Editeur>
+  </Livre>
+</Librairie>

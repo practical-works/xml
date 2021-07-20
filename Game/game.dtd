@@ -1,0 +1,10 @@
+<!ELEMENT game (player+)>
+
+<!ELEMENT player (name, level)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT level (#PCDATA)>
+
+<!ATTLIST game 
+  name CDATA #REQUIRED>
+<!ATTLIST player
+  id CDATA #REQUIRED>

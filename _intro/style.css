@@ -1,0 +1,26 @@
+Vente {
+	border: 1px solid black;
+}
+
+Produits {
+	border: 1px solid black;
+}
+
+Produit {
+	border: 1px solid black;
+}
+
+Produit_Label {
+	display: block;
+	color: Green;
+	font-family: Calibri;
+	text-decoration:underline;
+}
+
+Produit_ID {
+	background-color: Yellow;
+	display: block;
+	color: Blue;
+	font-family:Comic Sans MS;
+	font-style:italic;
+}

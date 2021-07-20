@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+<!DOCTYPE Vente SYSTEM "type.dtd">
+<Vente>
+	<Produits>
+
+		<Produit Produit_ID="1">
+			<Produit_Label>clavier</Produit_Label>
+		</Produit>
+
+		<Produit Produit_ID="2">
+			<Produit_Label>Souris</Produit_Label>
+		</Produit>
+
+		<Produit Produit_ID="3">
+			<Produit_Label>Moniteur</Produit_Label>
+		</Produit>
+
+	</Produits>
+</Vente>

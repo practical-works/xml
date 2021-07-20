@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="game.xsl"?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game name="NEW GAME" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="game.xsd">
+  <player id="1">
+    <name>Yasuo</name>
+    <level>100</level>
+  </player>
+  <player id="2">
+    <name>Garen</name>
+    <level>90</level>
+  </player>
+  <player id="3">
+    <name>Lee Sin</name>
+    <level>80</level>
+  </player>
+  <player id="4">
+    <name>Rengar</name>
+    <level>70</level>
+  </player>
+  <player id="5">
+    <name>Blitzcrank</name>
+    <level>78</level>
+  </player>
+  <player id="6">
+    <name>Darius</name>
+    <level>89</level>
+  </player>
+  <player id="7">
+    <name>Teemo</name>
+    <level>66</level>
+  </player>
+  <player id="8">
+    <name>Irelia</name>
+    <level>10</level>
+  </player>
+  <player id="9">
+    <name>Lucian</name>
+    <level>50</level>
+  </player>
+  <player id="10">
+    <name>Xin Zhao</name>
+    <level>82</level>
+  </player>
+</game>

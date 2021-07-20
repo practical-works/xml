@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <xsd:element name="Librairie">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Livre" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Titre" type="xsd:string" />
+              <xsd:element name="Auteur" type="xsd:string" maxOccurs="unbounded" />
+              <xsd:element name="Date" type="xsd:gYear" />
+              <xsd:element name="ISBN">
+                <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
+                    <xsd:pattern value="\d{1}-\d{5}-\d{3}-\d{1}" />
+                    <xsd:pattern value="\d-\d\d\d-\d\d\d\d\d-\d" />
+                    <xsd:pattern value="\d-\d\d-\d\d\d\d\d\d-\d" />
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:element>
+              <xsd:element name="Editeur" type="xsd:string" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  
+</xsd:schema>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="Bibliotheque">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Livre" minOccurs="1" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Titre" type="xsd:string" />
+              <xsd:element name="Auteur">
+                <xsd:complexType>
+                  <xsd:all>
+                    <xsd:element name="Nom" type="xsd:string" />
+                    <xsd:element name="Prenom" type="xsd:string" />
+                  </xsd:all>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="Editeur">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Nom" type="xsd:string" />
+                    <xsd:element name="Annee" type="xsd:gYear" />
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="Genre" type="xsd:string" />
+            <xsd:attribute name="ISBN">
+              <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                  <xsd:pattern value="\d-\d{3,5}-\d{4,6}-\d" />
+                </xsd:restriction>
+              </xsd:simpleType>
+            </xsd:attribute>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

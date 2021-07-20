@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet  type="text/xsl" href="biblio.xsl"?>
+<!DOCTYPE Bibliotheque SYSTEM "biblio.dtd">
+<Bibliotheque xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="biblio.xsd">
+  <Livre Genre="Fantasy">
+    <Titre>Harry Potter</Titre>
+    <Auteur>
+      <Prenom>Joanne</Prenom>
+      <Nom>Rowling</Nom>
+    </Auteur>
+    <Editeur>
+      <Nom>Fantasy Books</Nom>
+      <Annee>2010</Annee>
+    </Editeur>
+  </Livre>
+  <Livre Genre="Fantasy">
+    <Titre>Janis</Titre>
+    <Auteur>
+      <Prenom>Karan</Prenom>
+      <Nom>Mounadi</Nom>
+    </Auteur>
+    <Editeur>
+      <Nom>Fantasy Books</Nom>
+      <Annee>2010</Annee>
+    </Editeur>
+  </Livre>
+  <Livre Genre="Fantasy">
+    <Titre>Star Wars</Titre>
+    <Auteur>
+      <Prenom>Jean</Prenom>
+      <Nom>Lucas</Nom>
+    </Auteur>
+    <Editeur>
+      <Nom>Fantasy Books</Nom>
+      <Annee>2010</Annee>
+    </Editeur>
+  </Livre>
+</Bibliotheque>
